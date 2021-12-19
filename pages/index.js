@@ -8,6 +8,7 @@ export default function Home() {
   const { isAuthenticated, logout } = useMoralis();
 
   if (!isAuthenticated) return <Login />;
+
   return (
     <div className="h-screen overflow-y-scroll bg-gradient-to-b from-darkPink-100 to-darkBlue-100 overflow-hidden font-mono">
       <Head>
