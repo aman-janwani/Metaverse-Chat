@@ -64,7 +64,7 @@ function Message({ message }) {
       </div>
       {/* Timeago stamp */}
       <Timeago
-        className={`text-[10px] italic text-gray-400 ${
+        className={`text-[10px] italic text-gray-200 ${
           isUserMessage && "pr-1 order-first"
         }`}
         datetime={message.createdAt}
