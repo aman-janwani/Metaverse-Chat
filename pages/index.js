@@ -5,7 +5,7 @@ import Header from "../components/Header";
 import Messages from "../components/Messages";
 
 export default function Home() {
-  const { isAuthenticated, logout } = useMoralis();
+  const { isAuthenticated, logout, user } = useMoralis();
 
   if (!isAuthenticated) return <Login />;
 

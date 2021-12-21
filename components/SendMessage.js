@@ -29,7 +29,6 @@ function SendMessage({ endOfMessagesRef }) {
     const transcript = event.results[current][0].transcript;
     setMessage(message + transcript);
   };
-  console.log(message);
 
   function readOutLoud(voiceMessage) {
     const speech = new SpeechSynthesisUtterance();
