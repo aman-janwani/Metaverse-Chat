@@ -100,6 +100,7 @@ function Message({ message }) {
               layout="fill"
               objectFit="cover"
               className="rounded-full"
+              alt="avatar"
             />
           </div>
           <h1 className="mx-auto my-3 text-white font-medium text-3xl">
